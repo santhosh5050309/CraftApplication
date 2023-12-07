@@ -29,7 +29,7 @@ public class IntuitCraftRoundApplication {
             try {
                 Node root;
                 Scanner sc = new Scanner(System.in);
-                System.out.println("Enter the data for tree construction");
+                System.out.println("Enter the data for tree construction"); // 1,2,4,#,#,5,#,#,3,#,6,7,#,#,#
                 String data = sc.next();
                 root = controller.constructTree(data);
                 System.out.println("Enter Node to be removed");
